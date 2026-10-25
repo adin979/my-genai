@@ -1,0 +1,21 @@
+{
+  "name": "my-genai",
+  "version": "1.0.0",
+  "description": "api for google genai",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/genai": "^2.30.0",
+    "cors": "^2.8.6",
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "dotenv": "^18.0.9",
+    "nodemon": "^3.1.14"
+  }
+}
